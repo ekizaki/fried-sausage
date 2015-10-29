@@ -19,6 +19,11 @@ namespace FormarGrupoAleatorioBO
         {
             get { return _mensagemErroString; }
         }
+        private static string _mensagemIncompatibilidadeAlunoGrupo;
+        public static string MensagemIncompatibilidadeAlunoGrupo
+        {
+            get { return _mensagemIncompatibilidadeAlunoGrupo; }
+        }
 
         /// <summary>
         /// Valida se o valor recebido é de um formato passível de ser convertido para o tipo "inteiro".
@@ -74,7 +79,11 @@ namespace FormarGrupoAleatorioBO
         public static bool ValidarCompatibilidadeAlunoGrupo(int qntAluno, int qntGrupo)
         {
             if (qntAluno < qntGrupo)
+            {
+                _mensagemIncompatibilidadeAlunoGrupo = ("O número de alunos adicionados em relação a quantidade" +
+                    " de grupos não é compatível. Favor refazer o processo.");
                 return true;
+            }
             else
                 return false;
         }

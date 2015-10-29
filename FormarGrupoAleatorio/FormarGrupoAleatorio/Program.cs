@@ -4,7 +4,7 @@ using FormarGrupoAleatorioBO;
 
 namespace FormarGrupoAleatorio
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -44,8 +44,7 @@ namespace FormarGrupoAleatorio
             }
             if (Validate.ValidarCompatibilidadeAlunoGrupo(AlunoOperation.RelacaoAluno.Count, qntGrupo))
             {
-                Console.Write("O número de alunos adicionados em relação a quantidade" +
-                    " de grupos não é compatível. Favor refazer o processo.");
+                Console.Write(Validate.MensagemIncompatibilidadeAlunoGrupo);
                 goto NumeroGrupo;
             }
             Console.Clear();

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormarGrupoAleatorio", "FormarGrupoAleatorio\FormarGrupoAleatorio.csproj", "{86638AAE-44B8-46B8-BD41-1A57D3707E7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormarGrupoAleatorioBO", "FormarGrupoAleatorioBO\FormarGrupoAleatorioBO.csproj", "{700ECC7E-5778-4158-A53C-9F524C891B81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86638AAE-44B8-46B8-BD41-1A57D3707E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86638AAE-44B8-46B8-BD41-1A57D3707E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86638AAE-44B8-46B8-BD41-1A57D3707E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86638AAE-44B8-46B8-BD41-1A57D3707E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{700ECC7E-5778-4158-A53C-9F524C891B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700ECC7E-5778-4158-A53C-9F524C891B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{700ECC7E-5778-4158-A53C-9F524C891B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{700ECC7E-5778-4158-A53C-9F524C891B81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

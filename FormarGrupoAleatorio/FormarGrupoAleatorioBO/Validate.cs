@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 
 namespace FormarGrupoAleatorioBO
 {
-    public class Validate
+    public static class Validate
     {
         private static string _mensagemErroFormato;
         public static string MensagemErroFormato
@@ -55,7 +55,7 @@ namespace FormarGrupoAleatorioBO
         /// caracteres alfabéticos e "false" para o caso de ser.</returns>
         public static bool ValidarFormatoString(string EntradaString)
         {
-            Regex regex = new Regex(@"[A-Za-z][a-z]+");
+            Regex regex = new Regex(@"^[^0-9]+\b$");
             Match comparador = regex.Match(EntradaString);
 
             if (comparador.Success==false)

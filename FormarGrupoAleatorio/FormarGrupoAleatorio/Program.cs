@@ -44,7 +44,7 @@ namespace FormarGrupoAleatorio
             }
             if (Validate.ValidarCompatibilidadeAlunoGrupo(AlunoOperation.RelacaoAluno.Count, qntGrupo))
             {
-                Console.Write(Validate.MensagemIncompatibilidadeAlunoGrupo);
+                Console.WriteLine(Validate.MensagemIncompatibilidadeAlunoGrupo);
                 goto NumeroGrupo;
             }
             Console.Clear();
